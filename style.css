@@ -1,3 +1,8 @@
-body {
-    font-size: 15pt;
+body{
+  background: #efefef;
+}
+
+img{
+  width: 20px;
+  height: 20px;
 }

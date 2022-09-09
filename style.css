@@ -1,8 +1,69 @@
+*{
+  margin: 0;
+  padding: 0;
+}
 body{
   background: #efefef;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.wrapper-head{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  margin-left: -10px;
 }
 
 img{
   width: 20px;
   height: 20px;
+}
+input{
+  width: 300px;
+  height: 40px;
+  padding-left: 40px;
+  border-radius: 24px;
+  border: 0;
+  outline: none;
+}
+
+.icoone{
+  position: relative;
+  left: 35px;
+  top: 5px;
+}
+.icotwo{
+  position: relative;
+  left: -35px;
+  top: 5px;
+}
+
+.img-perfil{
+  width: 35px;
+  height: 35px;
+  border-radius: 100%;
+}
+
+.wrapper-main{
+  display: flex;
+  flex-direction: column;
+  height: 900px;
+  gap: 30px;
+}
+
+.card-small{
+  min-width: 340px;
+  height: 60px;
+  border-radius: 8px;
+  background-color: #fff;
+}
+.card-medium{
+  min-width: 340px;
+  height: 300px;
+  border-radius: 8px;
+  background-color: #fff;
 }
